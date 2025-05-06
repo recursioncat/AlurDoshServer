@@ -30,4 +30,4 @@ def classify():
     return jsonify({'vegType': prediction, 'disease': disease})
 
 
-app.run(debug=True)
+app.run(port=5000)
